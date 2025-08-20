@@ -1,0 +1,47 @@
+# Core Deep Learning Framework
+tensorflow==2.12.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+
+# Scientific Computing
+scipy>=1.8.0
+
+# Data Handling and Analysis
+pandas>=1.4.0
+
+# Visualization and Plotting
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Progress Bars and UI
+tqdm>=4.64.0
+
+# Configuration Management
+pyyaml>=6.0
+
+# Logging and Monitoring
+tensorboard>=2.12.0
+
+# Model Persistence
+h5py>=3.7.0
+
+# Development and Testing (Optional)
+pytest>=7.0.0
+pytest-cov>=3.0.0
+black>=22.0.0
+flake8>=4.0.0
+
+# Jupyter Support (Optional)
+jupyter>=1.0.0
+ipykernel>=6.20.0
+
+# Production Deployment (Optional)
+gunicorn>=20.1.0
+flask>=2.2.0
+
+# Documentation (Optional)
+sphinx>=5.0.0
+sphinx-rtd-theme>=1.0.0
+
+# Note: Install with specific versions for reproducibility
+# For GPU support, TensorFlow will automatically detect and use CUDA if available
